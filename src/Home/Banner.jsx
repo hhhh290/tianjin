@@ -9,6 +9,7 @@ const { BgElement } = Element;
 // import { BaiduMap } from 'react-baidu-map';
 // import BMap from 'BMap'
 import Page5 from './Page5';
+import Page6 from './Page6';
 import Page3 from './Page3';
 // import   "echarts";
 console.log('1111',window.BMAP)
@@ -61,8 +62,9 @@ class Banner extends React.PureComponent {
               type={item.queueAnim || 'bottom'}
             >
               {/* {children} */}
-              <Page5></Page5>
+              {/* <Page5></Page5> */}
               {/* <Page3></Page3> */}
+              <Page6></Page6>
             </QueueAnim>
            
           </Element >); 
